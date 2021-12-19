@@ -1,0 +1,75 @@
+.banner{
+    background-image: url(../../../assets/img/shopping.jpg);
+    height: 555px;
+    background-position: center top;
+    background-size: cover;
+}
+
+
+.content h1{
+    color: #000;
+    font-size: 50px;
+    font-weight: bold;
+    top: 25%;
+    left: 60%;
+    position: absolute;
+}
+
+.content p{
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    top: 43%;
+    left: 60%;
+    position: absolute;
+}
+
+.content button{
+    top: 50%;
+    left: 60%;
+    position: absolute;
+    border: none;
+    color: #000;
+    background-color: #4287f5;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    box-shadow: inset 0 0 0 0 #ffa600;
+    transition: ease-out 0.3s;
+    outline: none;
+    margin-top: 20px;
+}
+
+.content button:hover{
+   box-shadow: inset 150px 0 0 0 #ffa600;
+}
+
+.stepBox{
+    background-color: #121212;
+    padding: 20px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.stepBox h1{
+    color: #ffa600;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.stepBox p{
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.highlight{
+    color: #ffa600; 
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+@media screen and (max-widrh:600) {
+    
+}
